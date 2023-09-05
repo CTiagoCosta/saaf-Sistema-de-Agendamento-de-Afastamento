@@ -1,13 +1,15 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import { StartPage } from '../pages/StartPage';
-import { Dashboard } from '../pages/Dashboard';
+import { SingIn } from '../pages/SingIn';
+import { Home } from '../pages/Home';
+import { Setting } from '../pages/Setting';
 
 export function Router() {
     return (
         <HashRouter>
             <Routes>
-                <Route path="/" element={<StartPage />} />
-                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/" element={<SingIn />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/setting" element={<Setting />} />
             </Routes>
         </HashRouter>
     );

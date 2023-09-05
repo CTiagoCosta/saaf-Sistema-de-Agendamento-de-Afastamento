@@ -3,7 +3,7 @@ import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
 
-export function Dashboard() {
+export function Home() {
     return (
         <Box>
             <Header />
@@ -17,7 +17,7 @@ export function Dashboard() {
                         
                         </Heading>
                         <Link href="">
-                            <Button as="a" size="sm" fontSize="sm" bg="green.50" color="white" leftIcon={<Icon as={RiAddLine} fontSize="16"/> }> 
+                            <Button as="a" size="md" fontSize="md" bg="green.50" color="white" leftIcon={<Icon as={RiAddLine} fontSize="22"/> }> 
                                 Criar novo
                             </Button>
                         </Link>
@@ -28,8 +28,9 @@ export function Dashboard() {
                                 <Th px={["4", "4", "6"]} color="gray.300" width="8">
                                     <Checkbox colorScheme="yellow"/>
                                 </Th>
-                                <Th>Lista de Afastamentos</Th>
-                                <Th>Data de Cadastro</Th>
+                                <Th>Tipo de Afastamentos</Th>
+                                <Th>Afastados</Th>
+                                <Th>Período de Afastamentos</Th>
                                 <Th width="8"></Th>
                             </Tr>
                         </Thead>
@@ -38,6 +39,7 @@ export function Dashboard() {
                                 <Td px={["4", "4", "6"]}>
                                     <Checkbox colorScheme="yellow"/>
                                 </Td>
+                                <Td>Férias</Td>
                                 <Td>
                                     <Box>
                                         <Link color="white">
@@ -57,6 +59,8 @@ export function Dashboard() {
                                 <Td px={["4", "4", "6"]}>
                                     <Checkbox colorScheme="yellow"/>
                                 </Td>
+                                
+                                <Td>Folga</Td>
                                 <Td>
                                     <Box>
                                         <Link color="white">
@@ -76,10 +80,12 @@ export function Dashboard() {
                                 <Td px={["4", "4", "6"]}>
                                     <Checkbox colorScheme="yellow"/>
                                 </Td>
+                                
+                                <Td>Licença Maternidade</Td>
                                 <Td>
                                     <Box>
                                         <Link color="white">
-                                            <Text fontWeight="bold">Carlos Tiago</Text>
+                                            <Text fontWeight="bold">Maria do Carmo</Text>
                                         </Link>
                                         <Text fontSize="sm" color="gray.300">teste@teste.com</Text>
                                     </Box>

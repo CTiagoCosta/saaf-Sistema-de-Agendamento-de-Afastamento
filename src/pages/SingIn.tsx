@@ -3,23 +3,21 @@ import { Button, Flex, Input, Stack, Image, Text, InputGroup, InputLeftElement }
 import { EmailIcon, LockIcon } from '@chakra-ui/icons';
 
 
-export function StartPage() {
+export function SingIn() {
     const navigate = useNavigate();
 
     const getData = async () => {
-        navigate('/dashboard');
+        navigate('home');
     }
     return (
        <Flex 
        marginTop="100px"
        marginBottom="100px"
-        // w="100vw" 
-        // h="100vw"
         align="center"
         justify="center"
         >
             <Flex 
-                as="form" 
+                as="form"
                 width="100%" 
                 maxWidth={460}
                 bg="gray.500"
@@ -68,11 +66,8 @@ export function StartPage() {
                             >
                             ENTRAR
                         </Button>
-                        
                     </Stack>
-
             </Flex>
-
        </Flex>
     )
 }

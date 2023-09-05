@@ -11,7 +11,7 @@ export function SearchBox() {
             flex="1"
             py="4"
             px="22"
-            ml="6"
+            ml="16"
             maxWidth={400}
             alignSelf="center"
             color="gray.200"

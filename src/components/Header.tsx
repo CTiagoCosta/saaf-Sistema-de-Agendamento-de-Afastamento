@@ -1,4 +1,4 @@
-import { Flex, Icon, IconButton, useBreakpointValue } from "@chakra-ui/react";
+import { Button, Flex, Icon, IconButton, Link, useBreakpointValue } from "@chakra-ui/react";
 import { Logo } from "./Logo";
 import { SearchBox } from "./SearchBox";
 import { NotificationNav } from "./NotificationNav";
@@ -55,6 +55,24 @@ export function Header() {
             <NotificationNav />
 
             <Profile showProfileData={isWideVersion}/>
+            
+        </Flex>
+
+        <Flex
+            margin="20px 0 20px 20px"
+        >
+            
+            <Link href="/">
+            <Button 
+                as="a" 
+                size="md" 
+                fontSize="md" 
+                bg="green.50" 
+                color="white"
+            > 
+                SAIR
+            </Button>
+        </Link>
             
         </Flex>
             
