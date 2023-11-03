@@ -21,17 +21,17 @@ export function Sidebar() {
       spacing="12" 
       align="flex-start" 
       borderRadius="4px" 
-      padding="20px" >
+      padding="20px">
       <NavSection title="GERAL">
         <NavLink icon={RiHome2Line} href="#home">Home</NavLink>
         <NavLink icon={RiSettings5Line} href="#setting">Configurações</NavLink>
       </NavSection>
       <NavSection title="PLANTÕES">
-        <NavLink icon={RiCalendar2Line} href="/">Platões Semanais</NavLink>
-        <NavLink icon={RiCustomerService2Line} href="/">Plantões de atendimento</NavLink>
+        <NavLink icon={RiCalendar2Line} href="#weeklyshifts">Platões Semanais</NavLink>
+        <NavLink icon={RiCustomerService2Line} href="#serviceshifts">Plantões de atendimento</NavLink>
       </NavSection>
       <NavSection title="CADASTROS">
-        <NavLink icon={RiUserAddLine} href="/">Cadastro de Usuários</NavLink>
+        <NavLink icon={RiUserAddLine} href="#userregistration">Cadastro de Usuários</NavLink>
         <NavLink icon={RiArrowRightCircleLine} href="/">Cadastro de Afastamentos</NavLink>
         <NavLink icon={RiBriefcase4Line} href="/">Cadastro de Plantões</NavLink>
       </NavSection>

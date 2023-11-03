@@ -10,7 +10,12 @@ interface NavLinkProps extends ChakraLinkPropos{
 export function NavLink( {icon, children, ...rest }: NavLinkProps) {
     return (
         
-        <ChakraLink display="flex" {...rest}>
+        <ChakraLink 
+            display="flex" 
+            // w="100%" 
+            // bg="#4c89e" 
+            {...rest}
+        >
             <Icon as={icon} fontSize="20" />
             <Text ml="4" fontWeight="medium">{children}</Text>
         </ChakraLink>

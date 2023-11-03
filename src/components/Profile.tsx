@@ -15,7 +15,7 @@ export function Profile({showProfileData = true}: ProfileProps) {
                  </Text>
              </Box>
             )}
-        <Avatar size="md" name="Carlos Tiago" src="https://github.com/CTiagoCosta.png"/>
+        <Avatar size="lg" name="Carlos Tiago" src="https://github.com/CTiagoCosta.png"/>
     </Flex>
     );
 }

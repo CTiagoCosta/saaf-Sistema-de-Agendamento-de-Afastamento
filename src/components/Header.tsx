@@ -66,9 +66,10 @@ export function Header() {
             <Button 
                 as="a" 
                 size="md" 
-                fontSize="md" 
-                bg="green.50" 
-                color="white"
+                fontSize="md"
+                colorScheme='teal' 
+                variant='solid'
+                textDecor="none"
             > 
                 SAIR
             </Button>

@@ -17,8 +17,8 @@ export function Home() {
                         
                         </Heading>
                         <Link href="">
-                            <Button as="a" size="md" fontSize="md" bg="green.50" color="white" leftIcon={<Icon as={RiAddLine} fontSize="22"/> }> 
-                                Criar novo
+                            <Button as="a" size="md" fontSize="md" colorScheme='teal' variant='solid' textDecor="none" leftIcon={<Icon as={RiAddLine} fontSize="22"/> }> 
+                                Cadastro de Afastamento
                             </Button>
                         </Link>
                     </Flex>
@@ -43,14 +43,14 @@ export function Home() {
                                 <Td>
                                     <Box>
                                         <Link color="white">
-                                            <Text fontWeight="bold">Carlos Tiago</Text>
+                                            <Text fontWeight="bold">Félix Kury</Text>
                                         </Link>
                                         <Text fontSize="sm" color="gray.300">teste@teste.com</Text>
                                     </Box>
                                 </Td>
-                                <Td>01 de agosto de 2023 à 15 de agosto de 2023 </Td>
+                                <Td>01/08/2023 <br/><br/> 15/08/2023 </Td>
                                     <Td>
-                                    <Button as="a" size="sm" fontSize="sm" bg="green.50" leftIcon={<Icon as={RiPencilLine} color="white" fontSize="16"/> }>
+                                    <Button as="a" size="sm" fontSize="sm" colorScheme='teal' variant='solid' leftIcon={<Icon as={RiPencilLine} color="white" fontSize="16"/> }>
                                         
                                     </Button>
                                 </Td>
@@ -64,14 +64,14 @@ export function Home() {
                                 <Td>
                                     <Box>
                                         <Link color="white">
-                                            <Text fontWeight="bold">Carlos Tiago</Text>
+                                            <Text fontWeight="bold">Carmem Lúcia</Text>
                                         </Link>
                                         <Text fontSize="sm" color="gray.300">teste@teste.com</Text>
                                     </Box>
                                 </Td>
-                                <Td>01 de agosto de 2023 à 15 de agosto de 2023 </Td>
+                                <Td>01/08/2023 <br/>  <br/> 15/08/2023 </Td>
                                 <Td>
-                                    <Button as="a" size="sm" fontSize="sm" bg="green.50" leftIcon={<Icon as={RiPencilLine} color="white" fontSize="16"/> }>
+                                    <Button as="a" size="sm" fontSize="sm" colorScheme='teal' variant='solid' leftIcon={<Icon as={RiPencilLine} color="white" fontSize="16"/> }>
                                         
                                     </Button>
                                 </Td>
@@ -90,9 +90,9 @@ export function Home() {
                                         <Text fontSize="sm" color="gray.300">teste@teste.com</Text>
                                     </Box>
                                 </Td>
-                                <Td>01 de agosto de 2023 à 15 de agosto de 2023 </Td>
+                                <Td>01/08/2023 <br/>  <br/> 15/08/2023 </Td>
                                 <Td>
-                                    <Button as="a" size="sm" fontSize="sm" bg="green.50" leftIcon={<Icon as={RiPencilLine} color="white" fontSize="16"/> }>
+                                    <Button as="a" size="sm" fontSize="sm" colorScheme='teal' variant='solid' leftIcon={<Icon as={RiPencilLine} color="white" fontSize="16"/> }>
                                         
                                     </Button>
                                 </Td>
