@@ -62,7 +62,7 @@ export function Setting() {
                                             type="phone"
                                             bg="white"
                                             color="black"
-                                            placeholder="Digite seu Telefone"
+                                            placeholder="(99) 99999-9999"
                                         />
                                     </InputGroup>
                                 </Box>
@@ -78,7 +78,7 @@ export function Setting() {
                                         name="email" 
                                         bg="white"
                                         color="black"
-                                        placeholder="Digite seu E-mail"
+                                        placeholder="email@email.com"
                                     />
                                 </InputGroup>
                             </Box>
